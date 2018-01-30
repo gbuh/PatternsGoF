@@ -3,7 +3,7 @@ package creational.FactoryMethod;
 public class Program {
 
     public static void main(String[] args) {
-        DeveloperFactory developerFactory = CreateDeveloperFactoryBySpecialty("php");
+        DeveloperFactory developerFactory = CreateDeveloperFactoryBySpecialty("cola");
 //        DeveloperFactory developerFactory = new JavaDeveloperFactory();
 //        DeveloperFactory developerFactory = new CppDeveloperFactory();
 //        DeveloperFactory developerFactory = new PhpDeveloperFactory();
@@ -19,6 +19,10 @@ public class Program {
             return new CppDeveloperFactory();
         } else if(specialty.equalsIgnoreCase("php")) {
             return new PhpDeveloperFactory();
+        } else if(specialty.equalsIgnoreCase("cola")) {
+            return new ColaBottleFactory();
+        } else if(specialty.equalsIgnoreCase("pepsi")) {
+            return new PepsiBottleFactory();
         } else {
             throw new RuntimeException(specialty + " - is unknown specialty!!!");
         }
