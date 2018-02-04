@@ -11,7 +11,7 @@ public class Director {
         builder.createWebsite();
         builder.buildName();
         builder.buildCms();
-        builder.builPrice();
+        builder.buildPrice();
         
         Website website = builder.getWebsite();
         

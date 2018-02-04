@@ -9,7 +9,7 @@ public abstract class WebSiteBuilder {
 
     abstract void buildName();
     abstract void buildCms();
-    abstract void builPrice();
+    abstract void buildPrice();
 
     Website getWebsite() {
         return website;

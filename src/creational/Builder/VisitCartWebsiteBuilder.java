@@ -13,7 +13,7 @@ public class VisitCartWebsiteBuilder extends WebSiteBuilder {
     }
 
     @Override
-    void builPrice() {
+    void buildPrice() {
         website.setPrice(100);
     }
 }

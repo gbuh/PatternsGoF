@@ -13,7 +13,7 @@ public class EnterpriseWebsiteBuilder extends WebSiteBuilder{
     }
 
     @Override
-    void builPrice() {
+    void buildPrice() {
         website.setPrice(500);
     }
 }
