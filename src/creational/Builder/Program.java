@@ -6,8 +6,8 @@ public class Program {
 
         director.setBuilder(new EnterpriseWebsiteBuilder());
 
-        Website website = director.buildWebsite();
-
-        System.out.println(website);
+//        Website website = director.buildWebsite();
+//        System.out.println(website);
+        System.out.println(director.buildWebsite());
     }
 }
