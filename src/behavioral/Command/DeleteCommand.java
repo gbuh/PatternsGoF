@@ -1,4 +1,4 @@
-package structural.Command;
+package behavioral.Command;
 
 public class DeleteCommand implements Command {
     DatabaseReceiver database;

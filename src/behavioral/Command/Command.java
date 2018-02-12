@@ -1,4 +1,4 @@
-package structural.Command;
+package behavioral.Command;
 
 public interface Command {
     void execute();
