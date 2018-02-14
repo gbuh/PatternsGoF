@@ -1,4 +1,4 @@
-package behavioral.State;
+package behavioral.State.Sentence;
 
 public class Email implements State{
     Sentence sentence;

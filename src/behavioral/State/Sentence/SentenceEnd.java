@@ -1,24 +1,24 @@
-package behavioral.State;
+package behavioral.State.Sentence;
 
-public class PunctMark implements State {
+public class SentenceEnd implements State {
     Sentence sentence;
 
-    public PunctMark(Sentence sentence) {
+    public SentenceEnd(Sentence sentence) {
         this.sentence = sentence;
     }
 
     @Override
     public String getName() {
-        return "\'Punctuation mark\'";
+        return "\'Sentence end\'";
     }
 
     @Override
     public String next() {
-        return "space";
+        return "enter";
     }
 
     @Override
     public String toString() {
-        return "punctuation mark";
+        return "sentence end";
     }
 }

@@ -1,15 +1,15 @@
-package behavioral.State;
+package behavioral.State.Sentence;
 
-public class Word implements State {
+public class PunctMark implements State {
     Sentence sentence;
 
-    public Word(Sentence sentence) {
+    public PunctMark(Sentence sentence) {
         this.sentence = sentence;
     }
 
     @Override
     public String getName() {
-        return "\'Word\'";
+        return "\'Punctuation mark\'";
     }
 
     @Override
@@ -19,6 +19,6 @@ public class Word implements State {
 
     @Override
     public String toString() {
-        return "word";
+        return "punctuation mark";
     }
 }

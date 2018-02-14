@@ -1,24 +1,24 @@
-package behavioral.State;
+package behavioral.State.Sentence;
 
-public class SentenceEnd implements State {
+public class Word implements State {
     Sentence sentence;
 
-    public SentenceEnd(Sentence sentence) {
+    public Word(Sentence sentence) {
         this.sentence = sentence;
     }
 
     @Override
     public String getName() {
-        return "\'Sentence end\'";
+        return "\'Word\'";
     }
 
     @Override
     public String next() {
-        return "enter";
+        return "space";
     }
 
     @Override
     public String toString() {
-        return "sentence end";
+        return "word";
     }
 }

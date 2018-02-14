@@ -1,4 +1,4 @@
-package behavioral.State;
+package behavioral.State.Sentence;
 
 import java.util.ArrayList;
 
